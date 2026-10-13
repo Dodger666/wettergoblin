@@ -1,0 +1,67 @@
+{
+	"planes": {
+		"yourWorldName#1": {
+			"weatherseed": 123,
+			"calendarId": "greyhawk",
+			"planar_offsets": [
+				{
+					"yourWorldName#2": -29536707208000
+				},
+				{
+					"echt (MEZ)": -16473632400000
+				}
+			],
+			"moons": [
+				{
+					"name": "Luna",
+					"cycle_days": 28,
+					"offset_days": 26
+				},
+				{
+					"name": "Celene",
+					"cycle_days": 91,
+					"offset_days": 3
+				}
+			]
+		},
+		"yourWorldName#2": {
+			"weatherseed": 456,
+			"calendarId": "gregorian",
+			"planar_offsets": [
+				{
+					"yourWorldName#1": 29536707208000
+				}
+			],
+			"moons": [
+				{
+					"name": "Luna",
+					"cycle_days": 29,
+					"offset_days": 14
+				}
+			]
+		},
+		"echt (MEZ)": {
+			"calendarId": "gregorian"
+		}
+	},
+	"timelines": {
+		"domainDM#1": {
+			"name": "city of Oberstöckelskirchen",
+			"date": 17662406400000,
+			"planeId": "yourWorldName#1",
+			"weatherZone": "yourWeatherId"
+		},
+		"domainDM#2": {
+			"name": "city of Niederstöckelskirchen",
+			"date": 18210268800000,
+			"planeId": "yourWorldName#1",
+			"weatherZone": "yourWeatherId"
+		},
+		"domainDM#3": {
+			"name": "city of Danelorn",
+			"date": 18210268800000,
+			"planeId": "yourWorldName#2",
+			"weatherZone": "yourWeatherId"
+		}
+	}
+}

@@ -1,0 +1,654 @@
+  Name:       Vali, Son of Fain
+  Race:       dwarf
+  Class:      fighter
+  Level:      4
+  Alignment:  lawful neutral
+  Hitpoints:  24
+  Experience: [11000]
+_________________________________________________________________________________
+  STR:    17  to hit adj. +1   dmg adj. +1   open door 1-3   bend bars 13%
+  DEX:    15  reaction/missile adj. +0   defence adj. -1
+  CON:    16  hp adj. +2   system shock 95%   res.survival 96%
+  INT:    11  add. languages 2 
+  WIS:     8  mental save adj. +0
+  CHA:     9  max# henchmen 4   loyalty +0%   reaction adj. +0%
+_________________________________________________________________________________
+  dwarf abilities: 
+  saves vs. poison/magic/rod,staff,wand +4 / infravision 60'
+  +1 vs.goblinoid / giantkin hit -4 / detect slopes 75% sliding walls 66%
+  stonetraps/depth 50%
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death.13  Rod/Staff/Wand........15  Spells ...............16
+  Petrify/Polymorph.....14  Breath Weapon.........16  
+_________________________________________________________________________________
+  Weapons:
+  bow         THACO:17   DMG:d6/d6       RoF:2
+  lance       THACO:16   DMG:2d4+2/3d6+1 
+  broadsword  THACO:16   DMG:2d4+1/d6+2  
+  longbow     THACO:17   DMG:d6/d6       RoF:2
+  dagger      THACO:16   DMG:d4+1/d3+1   
+_________________________________________________________________________________
+  Armor:
+  banded mail    AC: 3 (+shield): 2
+_________________________________________________________________________________
+  Equipment:
+
+  light warpony                         potion:climbing                     
+  crowbar                               bullseye lantern                    
+  hammer&pitons                         waterflask                          
+  gold: 160                           
+  Name:       Einar Eriksson
+  Race:       human
+  Class:      fighter
+  Level:      4
+  Alignment:  lawful good
+  Hitpoints:  19
+  Experience: [11000]
+_________________________________________________________________________________
+  STR:    17  to hit adj. +1   dmg adj. +1   open door 1-3   bend bars 13%
+  DEX:    13  reaction/missile adj. +0   defence adj. +0
+  CON:    15  hp adj. +1   system shock 91%   res.survival 94%
+  INT:    12  add. languages 3 
+  WIS:    10  mental save adj. +0
+  CHA:    10  max# henchmen 4   loyalty +0%   reaction adj. +0%
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death.13  Rod/Staff/Wand........15  Spells ...............16
+  Petrify/Polymorph.....14  Breath Weapon.........16  
+_________________________________________________________________________________
+  Weapons:
+  crossbow    THACO:17   DMG:d4+1/d4+2   RoF:1/2
+  lance       THACO:16   DMG:2d4+2/3d6+1   
+  longsword   THACO:16   DMG:d8+1/d12+1    
+  scimitar    THACO:16   DMG:d8+1/d8+1     
+  battleaxe+1 THACO:15   DMG:d8+2/d8+2     
+_________________________________________________________________________________
+  Armor:
+  plate mail     AC: 3 (+shield): 2
+_________________________________________________________________________________
+  Equipment:
+
+  light warhorse                        scroll:protection-undead            
+  manacles                              torches                             
+  hammer&pitons                         bottle of schnapps                  
+  gold: 144                           
+  Name:       Bredan mac Brus
+  Race:       human
+  Class:      fighter
+  Level:      4
+  Alignment:  lawful neutral
+  Hitpoints:  17
+  Experience: [11000]
+_________________________________________________________________________________
+  STR:    15  to hit adj. +0   dmg adj. +0   open door 1-2   bend bars 7%
+  DEX:    12  reaction/missile adj. +0   defence adj. +0
+  CON:    14  hp adj. +0   system shock 88%   res.survival 92%
+  INT:    10  add. languages 2 
+  WIS:     6  mental save adj. -1
+  CHA:    10  max# henchmen 4   loyalty +0%   reaction adj. +0%
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death.13  Rod/Staff/Wand........15  Spells ...............16
+  Petrify/Polymorph.....14  Breath Weapon.........16  
+_________________________________________________________________________________
+  Weapons:
+  longbow     THACO:17   DMG:d6/d6      RoF:2
+  scimitar    THACO:17   DMG:d8/d8      
+  battleaxe   THACO:17   DMG:d8/d8      
+  comp.bow    THACO:17   DMG:d6/d6      RoF:2
+  flail       THACO:17   DMG:d6+1/2d4   
+_________________________________________________________________________________
+  Armor:
+  plate mail     AC: 3 (+shield): 2
+_________________________________________________________________________________
+  Equipment:
+
+  potion:gaseous form                   tooth gap                           
+  lantern                               hammer&pitons                       
+  waterflask                            gold: 96                            
+
+  Name:       Camden of the Green
+  Race:       human
+  Class:      ranger
+  Level:      4
+  Alignment:  lawful good
+  Hitpoints:  25
+  Experience: [11000]
+_________________________________________________________________________________
+  STR:    13  to hit adj. +0   dmg adj. +0   open door 1-2   bend bars 4%
+  DEX:    10  reaction/missile adj. +0   defence adj. +0
+  CON:    14  hp adj. +0   system shock 88%   res.survival 92%
+  INT:    13  add. languages 3 
+  WIS:    15  mental save adj. +1
+  CHA:    10  max# henchmen 4   loyalty +0%   reaction adj. +0%
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death.13  Rod/Staff/Wand........15  Spells ...............16
+  Petrify/Polymorph.....14  Breath Weapon.........16  
+_________________________________________________________________________________
+  Weapons:
+  comp.bow    THACO:17   DMG:d6/d6       RoF:2
+  scimitar    THACO:17   DMG:d8/d8       
+  broadsword  THACO:17   DMG:2d4/d6+1    
+  javelin     THACO:17   DMG:d6/d6       RoF:1
+  bow+1       THACO:16   DMG:d6+1/d6+1   RoF:2
+_________________________________________________________________________________
+  Armor:
+  plate mail     AC: 3 (+shield): 2
+_________________________________________________________________________________
+  Equipment:
+
+  pocket warmer                         candles                             
+  rope                                  waterflask                          
+  gold: 256                           
+  Name:       Lurgha the Destroyer
+  Race:       half-orc
+  Class:      fighter|cleric
+  Level:      [3|3]
+  Alignment:  lawful good
+  Hitpoints:  21
+  Experience: [5500/5500]
+_________________________________________________________________________________
+  STR:    16  to hit adj. +0   dmg adj. +1   open door 1-3   bend bars 10%
+  DEX:     6  reaction/missile adj. +0   defence adj. +1
+  CON:    15  hp adj. +1   system shock 91%   res.survival 94%
+  INT:    13  add. languages 3 
+  WIS:    17  mental save adj. +3
+  CHA:    12  max# henchmen 5   loyalty +0%   reaction adj. +0%
+_________________________________________________________________________________
+  half-orc abilities: 
+  infravision 60'
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death.10  Rod/Staff/Wand........14  Spells ...............15
+  Petrify/Polymorph.....13  Breath Weapon.........16  
+_________________________________________________________________________________
+  Weapons:
+  comp.bow    THACO:18   DMG:d6/d6       RoF:2
+  pick        THACO:18   DMG:d6+2/2d4+1    
+  broadsword  THACO:18   DMG:2d4+1/d6+2    
+  crossbow    THACO:18   DMG:d4+1/d4+2   RoF:1/2
+  flail       THACO:18   DMG:d6+2/2d4+1    
+_________________________________________________________________________________
+  Armor:
+  plate mail     AC: 4 (+shield): 3
+_________________________________________________________________________________
+  Memorized Cleric Spells : [4/3]
+
+  Lvl1: O   command                   O    purify food&drink      
+        O   remove fear               O    sanctuary              
+  Lvl2: O   resist fire               O    speak with animals     
+        O   messenger               
+_________________________________________________________________________________
+  Equipment:
+
+  scroll:combine                        scroll:light                        
+  scroll:resist fire                    horse                               
+  holy symbol                           torches                             
+  hammer&pitons                         waterskin                           
+  gold: 81                            
+  Name:       Raedwulf of Berghoff
+  Race:       half-elf
+  Class:      fighter|thief
+  Level:      [3|4]
+  Alignment:  chaotic neutral
+  Hitpoints:  18
+  Experience: [5761/5238]
+_________________________________________________________________________________
+  STR:    17  to hit adj. +1   dmg adj. +1   open door 1-3   bend bars 13%
+  DEX:    14  reaction/missile adj. +0   defence adj. +0
+  CON:    14  hp adj. +0   system shock 88%   res.survival 92%
+  INT:    13  add. languages 3 
+  WIS:    13  mental save adj. +0
+  CHA:    12  max# henchmen 5   loyalty +0%   reaction adj. +0%
+_________________________________________________________________________________
+  half-elf abilities: 
+  30% resistance to sleep&charm / find secret (1in6) or concealed doors (3in6)
+  infravision 60'
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death.13  Rod/Staff/Wand........14  Spells ...............15
+  Petrify/Polymorph.....12  Breath Weapon.........16  
+_________________________________________________________________________________
+  Weapons:
+  comp.bow    THACO:18   DMG:d6/d6      RoF:2
+  dagger      THACO:17   DMG:d4+1/d3+1  
+  broadsword  THACO:17   DMG:2d4+1/d6+2 
+  bow         THACO:18   DMG:d6/d6      RoF:2
+  scimitar    THACO:17   DMG:d8+1/d8+1  
+_________________________________________________________________________________
+  Armor:
+  studded leather AC: 7
+_________________________________________________________________________________
+  Pick Pockets........55%   Open Locks..........37%   Find&Remove Traps...35% 
+  Move Silent.........33%   Hide in Shadow......30%   Hear Noise..........15% 
+  Climb Wall..........88%   Read Language.......20% 
+_________________________________________________________________________________
+  Equipment:
+
+  scroll:protection-undead              potion:gaseous form                 
+  shovel                                thieves tools                       
+  burning oil                           lantern                             
+  rope                                  waterflask                          
+  gold: 208                           
+  Name:       Râna of the Gilfaeli
+  Race:       elf
+  Class:      fighter|magicuser
+  Level:      [3|3]
+  Alignment:  neutral good
+  Hitpoints:  12
+  Experience: [5761/5238]
+_________________________________________________________________________________
+  STR:    16  to hit adj. +0   dmg adj. +1   open door 1-3   bend bars 10%
+  DEX:     8  reaction/missile adj. +0   defence adj. +0
+  CON:    12  hp adj. +0   system shock 80%   res.survival 85%
+  INT:    13  add. languages 3 know spell 55%   max# spells 9
+  WIS:    10  mental save adj. +0
+  CHA:     9  max# henchmen 4   loyalty +0%   reaction adj. +0%
+_________________________________________________________________________________
+  elf abilities: 
+  90% resistance to sleep&charm / find secret (1in6) or concealed doors (3in6)
+  infravision 60' / surprise monsters (4in6) when alone
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death.13  Rod/Staff/Wand........11  Spells ...............12
+  Petrify/Polymorph.....13  Breath Weapon.........15  
+_________________________________________________________________________________
+  Weapons:
+  comp.bow    THACO:17   DMG:d6/d6       RoF:2
+  pick        THACO:18   DMG:d6+2/2d4+1  
+  longsword   THACO:17   DMG:d8+1/d12+1  
+  spear+1     THACO:17   DMG:d6+2/d8+2   
+_________________________________________________________________________________
+  Armor:
+  plate mail     AC: 3 (+shield): 2
+_________________________________________________________________________________
+  Arcane Spellbook : [2/1]
+
+  Lvl1: ØOO sleep                     ØOO  charm person           
+        OOO ventriloquism             OOO  comprehend language    
+  Lvl2: ØOO mirror image            
+_________________________________________________________________________________
+  Equipment:
+
+  scroll:sleep                          horse                               
+  component pouch                       Garweez' Bestiarium                 
+  lantern                               rope                                
+  waterflask                            gold: 36                            
+
+  Name:       Timothe the Enchanter
+  Race:       human
+  Class:      magicuser
+  Level:      4
+  Alignment:  neutral good
+  Hitpoints:  8
+  Experience: [11000]
+_________________________________________________________________________________
+  STR:    11  to hit adj. +0   dmg adj. +0   open door 1-2   bend bars 2%
+  DEX:    13  reaction/missile adj. +0   defence adj. +0
+  CON:    11  hp adj. +0   system shock 75%   res.survival 80%
+  INT:    15  add. languages 4 know spell 65%   max# spells 11
+  WIS:    10  mental save adj. +0
+  CHA:    11  max# henchmen 4   loyalty +0%   reaction adj. +0%
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death.13  Rod/Staff/Wand........10  Spells ...............11
+  Petrify/Polymorph.....12  Breath Weapon.........14  
+_________________________________________________________________________________
+  Weapons:
+  sling       THACO:20   DMG:d4+1/d6+1   RoF:1
+  staff+1     THACO:19   DMG:d6+1/d6+1   
+_________________________________________________________________________________
+  Armor:
+  none           AC: 9
+_________________________________________________________________________________
+  Arcane Spellbook : [3/2]
+
+  Lvl1: OOO enlarge                   OOO  spider climb           
+        ØOO alarm                     OOO  hold portal            
+        ØOO magic missile             OOO  find familiar          
+        ØOO write                   
+  Lvl2: OOO uncontrollable laughter   ØØO  continual light        
+_________________________________________________________________________________
+  Equipment:
+
+  scroll:magic missile                  ring o.protection.+1                
+  scroll:infravision                    scroll:forceful hand                
+  potion:polymorph self                 component pouch                     
+  caltrops                              candles                             
+  rope                                  bottle of wine                      
+  gold: 112                           
+  Name:       The Sorceress Lorella
+  Race:       human
+  Class:      magicuser
+  Level:      4
+  Alignment:  lawful good
+  Hitpoints:  10
+  Experience: [11000]
+_________________________________________________________________________________
+  STR:    11  to hit adj. +0   dmg adj. +0   open door 1-2   bend bars 2%
+  DEX:    13  reaction/missile adj. +0   defence adj. +0
+  CON:    12  hp adj. +0   system shock 80%   res.survival 85%
+  INT:    14  add. languages 4 know spell 55%   max# spells 9
+  WIS:     8  mental save adj. +0
+  CHA:    11  max# henchmen 4   loyalty +0%   reaction adj. +0%
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death.14  Rod/Staff/Wand........11  Spells ...............12
+  Petrify/Polymorph.....13  Breath Weapon.........15  
+_________________________________________________________________________________
+  Weapons:
+  dagger(thr) THACO:20   DMG:d4/d3       RoF:2
+  dagger+1    THACO:19   DMG:d4+1/d3+1   
+_________________________________________________________________________________
+  Armor:
+  none           AC: 10
+_________________________________________________________________________________
+  Arcane Spellbook : [3/2]
+
+  Lvl1: ØØO protection from evil      OOO  ventriloquism          
+        ØOO light                     OOO  dancing light          
+        OOO push                    
+  Lvl2: ØOO flaming sphere            ØOO  invisibility           
+_________________________________________________________________________________
+  Equipment:
+
+  scroll:protection from evil           scroll:lightning bolt               
+  scroll:preserve                       component pouch                     
+  torches                               rope ladder                         
+  waterskin                             gold: 224                           
+
+  Name:       Giselle of Löxwych
+  Race:       human
+  Class:      illusionist
+  Level:      4
+  Alignment:  chaotic good
+  Hitpoints:  12
+  Experience: [11000]
+_________________________________________________________________________________
+  STR:     8  to hit adj. +0   dmg adj. +0   open door 1-2   bend bars 1%
+  DEX:    16  reaction/missile adj. +1   defence adj. -2
+  CON:    10  hp adj. +0   system shock 70%   res.survival 75%
+  INT:    15  add. languages 4 know spell 65%   max# spells 11
+  WIS:     8  mental save adj. +0
+  CHA:     9  max# henchmen 4   loyalty +0%   reaction adj. +0%
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death.14  Rod/Staff/Wand........11  Spells ...............12
+  Petrify/Polymorph.....13  Breath Weapon.........15  
+_________________________________________________________________________________
+  Weapons:
+  sling       THACO:19   DMG:d4+1/d6+1   RoF:1
+_________________________________________________________________________________
+  Armor:
+  none           AC: 8
+_________________________________________________________________________________
+  Book of Illusions : [3/2]
+
+  Lvl1: OOO hypnotism                 OOO  chromatic orb          
+        ØOO change self               ØØO  spook                  
+        OOO gaze reflection         
+  Lvl2: OOO fog cloud                 ØOO  detect magic           
+        ØOO whispering wind         
+_________________________________________________________________________________
+  Equipment:
+
+  scroll:hypnotism                      scroll:dispel illusion              
+  scroll:detect invisib.                scroll:continual darkness           
+  potion:polymorph self                 potion:gaseous form                 
+  component pouch                       pocket bottle                       
+  torches                               hammer&pitons                       
+  waterflask                            gold: 176                           
+
+  Name:       Danthâlion the Seeker
+  Race:       elf
+  Class:      thief|magicuser
+  Level:      [4|3]
+  Alignment:  lawful evil
+  Hitpoints:  9
+  Experience: [5500/5500]
+_________________________________________________________________________________
+  STR:     9  to hit adj. +0   dmg adj. +0   open door 1-2   bend bars 1%
+  DEX:    15  reaction/missile adj. +0   defence adj. -1
+  CON:    13  hp adj. +0   system shock 85%   res.survival 90%
+  INT:    15  add. languages 4 know spell 65%   max# spells 11
+  WIS:    13  mental save adj. +0
+  CHA:     8  max# henchmen 3   loyalty -5%   reaction adj. +0%
+_________________________________________________________________________________
+  elf abilities: 
+  90% resistance to sleep&charm / find secret (1in6) or concealed doors (3in6)
+  infravision 60' / surprise monsters (4in6) when alone
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death.13  Rod/Staff/Wand........11  Spells ...............12
+  Petrify/Polymorph.....12  Breath Weapon.........15  
+_________________________________________________________________________________
+  Weapons:
+  dagger(thr)  THACO:20   DMG:d4/d3       RoF:2
+  club         THACO:20   DMG:d6/d3       
+  shortsword+1 THACO:18   DMG:d6+1/d8+1   
+  dart         THACO:20   DMG:d3/d2       RoF:
+_________________________________________________________________________________
+  Armor:
+  padded         AC: 7
+_________________________________________________________________________________
+  Pick Pockets........50%   Open Locks..........32%   Find&Remove Traps...35% 
+  Move Silent.........38%   Hide in Shadow......35%   Hear Noise..........20% 
+  Climb Wall..........88%   Read Language.......20% 
+_________________________________________________________________________________
+  Arcane Spellbook : [2/1]
+
+  Lvl1: OOO magic aura                ØØO  magic missile          
+        OOO sleep                     OOO  jump                   
+        OOO enlarge                   OOO  feather fall           
+  Lvl2: ØOO locate object           
+_________________________________________________________________________________
+  Equipment:
+
+  thieves tools                         counterfeit coins                   
+  component pouch                       crystal ball (mundane)              
+  oil lamp                              rope ladder                         
+  waterskin                             gold: 64                            
+
+  Name:       Oswald "Ozzy" Sly-Foot
+  Race:       halfling
+  Class:      thief
+  Level:      5
+  Alignment:  lawful neutral
+  Hitpoints:  19
+  Experience: [11000]
+_________________________________________________________________________________
+  STR:     5  to hit adj. -2   dmg adj. -1   open door 1   bend bars 0%
+  DEX:    16  reaction/missile adj. +1   defence adj. -2
+  CON:    13  hp adj. +0   system shock 85%   res.survival 90%
+  INT:    13  add. languages 3 
+  WIS:     8  mental save adj. +0
+  CHA:     8  max# henchmen 3   loyalty -5%   reaction adj. +0%
+_________________________________________________________________________________
+  halfling abilities: 
+  saves vs. poison/magic/rod,staff,wand +3 / infravision 60' / surprise 4in6
+  detect slopes 75% direction 50%
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death.12  Rod/Staff/Wand........12  Spells ...............13
+  Petrify/Polymorph.....11  Breath Weapon.........15  
+_________________________________________________________________________________
+  Weapons:
+  bow         THACO:18   DMG:d6/d6       RoF:2
+  dagger+1    THACO:19   DMG:d4/d3       
+  shortsword  THACO:20   DMG:d6-1/d8-1   
+_________________________________________________________________________________
+  Armor:
+  padded         AC: 6
+_________________________________________________________________________________
+  Pick Pockets........55%   Open Locks..........52%   Find&Remove Traps...45% 
+  Move Silent.........50%   Hide in Shadow......46%   Hear Noise..........25% 
+  Climb Wall..........75%   Read Language.......20% 
+_________________________________________________________________________________
+  Equipment:
+
+  scroll:protection-devil               wand o.negation                     
+  thieves tools                         stink bomb                          
+  lantern                               rope ladder                         
+  bottle of wine                        gold: 300                           
+
+  Name:       Dag Olafsson
+  Race:       human
+  Class:      thief
+  Level:      5
+  Alignment:  neutral good
+  Hitpoints:  30
+  Experience: [11000]
+_________________________________________________________________________________
+  STR:    11  to hit adj. +0   dmg adj. +0   open door 1-2   bend bars 2%
+  DEX:    17  reaction/missile adj. +2   defence adj. -3
+  CON:    16  hp adj. +2   system shock 95%   res.survival 96%
+  INT:    16  add. languages 5 
+  WIS:    11  mental save adj. +0
+  CHA:    10  max# henchmen 4   loyalty +0%   reaction adj. +0%
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death.12  Rod/Staff/Wand........12  Spells ...............13
+  Petrify/Polymorph.....11  Breath Weapon.........15  
+_________________________________________________________________________________
+  Weapons:
+  bow         THACO:17   DMG:d6/d6        RoF:2
+  dagger      THACO:19   DMG:d4/d3        
+  shortsword  THACO:19   DMG:d6/d8        
+  longsword+1 THACO:18   DMG:d8+1/d12+1   
+_________________________________________________________________________________
+  Armor:
+  studded leather AC: 4
+_________________________________________________________________________________
+  Pick Pockets........55%   Open Locks..........52%   Find&Remove Traps...40% 
+  Move Silent.........45%   Hide in Shadow......36%   Hear Noise..........20% 
+  Climb Wall..........90%   Read Language.......25% 
+_________________________________________________________________________________
+  Equipment:
+
+  potion:diminution                     thieves tools                       
+  stink bomb                            torches                             
+  rope                                  waterskin                           
+  gold: 125                           
+  Name:       Burke of Beligshire
+  Race:       human
+  Class:      cleric
+  Level:      4
+  Alignment:  neutral good
+  Hitpoints:  20
+  Experience: [11000]
+_________________________________________________________________________________
+  STR:    12  to hit adj. +0   dmg adj. +0   open door 1-2   bend bars 4%
+  DEX:    10  reaction/missile adj. +0   defence adj. +0
+  CON:    12  hp adj. +0   system shock 80%   res.survival 85%
+  INT:    10  add. languages 2 
+  WIS:    15  mental save adj. +1
+  CHA:    12  max# henchmen 5   loyalty +0%   reaction adj. +0%
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death..9  Rod/Staff/Wand........13  Spells ...............14
+  Petrify/Polymorph.....12  Breath Weapon.........15  
+_________________________________________________________________________________
+  Weapons:
+  club(thr)   THACO:18   DMG:d6/d3       RoF:1
+  club        THACO:18   DMG:d6/d3       
+  staff       THACO:18   DMG:d6/d6       
+  mace+1      THACO:17   DMG:d6+2/d6+1   
+_________________________________________________________________________________
+  Armor:
+  plate mail     AC: 3 (+shield): 2
+_________________________________________________________________________________
+  Memorized Cleric Spells : [5/3]
+
+  Lvl1: O   bless                     O    invisibility to undead 
+        O   detect magic              O    light                  
+        O   sanctuary               
+  Lvl2: O   augury                    O    find traps             
+        O   spiritual hammer        
+_________________________________________________________________________________
+  Equipment:
+
+  potion:flying                         holy symbol                         
+  lantern                               hammer&pitons                       
+  waterflask                            gold: 96                            
+
+  Name:       Ligeia of Peleos
+  Race:       human
+  Class:      cleric
+  Level:      4
+  Alignment:  lawful evil
+  Hitpoints:  18
+  Experience: [11000]
+_________________________________________________________________________________
+  STR:    11  to hit adj. +0   dmg adj. +0   open door 1-2   bend bars 2%
+  DEX:    10  reaction/missile adj. +0   defence adj. +0
+  CON:    12  hp adj. +0   system shock 80%   res.survival 85%
+  INT:     9  add. languages 1 
+  WIS:    14  mental save adj. +0
+  CHA:    10  max# henchmen 4   loyalty +0%   reaction adj. +0%
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death..9  Rod/Staff/Wand........13  Spells ...............14
+  Petrify/Polymorph.....12  Breath Weapon.........15  
+_________________________________________________________________________________
+  Weapons:
+  staff sling THACO:18   DMG:d4+1/d6+1   RoF:1
+  hammer      THACO:18   DMG:d4+1/d4     
+  mace+1      THACO:17   DMG:d6+2/d6+1   
+_________________________________________________________________________________
+  Armor:
+  plate mail     AC: 3 (+shield): 2
+_________________________________________________________________________________
+  Memorized Cleric Spells : [5/2]
+
+  Lvl1: O   light                     O    sanctuary              
+        O   cure light wounds         O    command                
+        O   invisibility to undead  
+  Lvl2: O   detect life               O    know alignment         
+_________________________________________________________________________________
+  Equipment:
+
+  holy symbol                           holy water                          
+  torches                               rope ladder                         
+  bottle of schnapps                    gold: 176                           
+
+  Name:       Kerraigh mac Kullen
+  Race:       human
+  Class:      druid
+  Level:      4
+  Alignment:  true neutral
+  Hitpoints:  19
+  Experience: [11000]
+_________________________________________________________________________________
+  STR:    11  to hit adj. +0   dmg adj. +0   open door 1-2   bend bars 2%
+  DEX:    12  reaction/missile adj. +0   defence adj. +0
+  CON:    13  hp adj. +0   system shock 85%   res.survival 90%
+  INT:     9  add. languages 1 
+  WIS:    14  mental save adj. +0
+  CHA:    17  max# henchmen 10  loyalty +30%   reaction adj. +25%
+_________________________________________________________________________________
+  Saving throws:
+  Paralyze/Poison/Death..9  Rod/Staff/Wand........13  Spells ...............14
+  Petrify/Polymorph.....12  Breath Weapon.........15  
+_________________________________________________________________________________
+  Weapons:
+  club(thr)   THACO:18   DMG:d6/d3   RoF:1
+  club        THACO:18   DMG:d6/d3   
+_________________________________________________________________________________
+  Armor:
+  studded leather AC: 7 (+shield): 6
+_________________________________________________________________________________
+  Memorized Druid Spells : [6/2/2]
+
+  Lvl1: O   detect snares&pits        OOO  entangle               
+        O   shillelagh                O    pass without trace     
+  Lvl2: O   flame blade               O    produce flame          
+  Lvl3: OO  hold animal             
+_________________________________________________________________________________
+  Equipment:
+
+  scroll:protection-possess.            potion:diminution                   
+  mistletoe                             torches                             
+  rope                                  waterflask                          
+  gold: 64                            
