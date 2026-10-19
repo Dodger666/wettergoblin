@@ -1,5 +1,7 @@
-# Wettergoblin — Documentation Index
 
+# This is a fork of original Wettergoblin. it's use for POC and testing purpose.
+
+# Wettergoblin — Documentation Index
 `wettergoblin` is a Discord bot for tabletop RPG campaign management. It tracks
 in-world dates across multiple "planes" and "timelines", generates deterministic
 seasonal weather, renders moon phases, draws small hex maps as SVG, keeps a dated
