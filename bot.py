@@ -185,5 +185,16 @@ def main():
     return 0
 
 
+def run_bot_process():
+    """Entry point for running the bot inside a separate process.
+
+    Used by the RollHero FastAPI app, which spawns the Discord bot in its own
+    process so it runs independently of the web server. ``multiprocessing``
+    (spawn start method on macOS) re-imports this module in the child and calls
+    this top-level function.
+    """
+    sys.exit(main())
+
+
 if __name__ == "__main__":
     sys.exit(main())
