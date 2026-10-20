@@ -17,12 +17,11 @@ pipe directly, e.g.  fighter|thief
 Setup
 -----
   1. pip install -r requirements.txt
-  2. Put your bot token in config.yml next to this script:
-         DISCORD_TOKEN: "your-bot-token"
-     (the DISCORD_TOKEN environment variable is used as a fallback).
+  2. Set your bot token in the DISCORD_TOKEN environment variable:
+         export DISCORD_TOKEN="your-bot-token"
   3. python bot.py
 
-The token is never hard-coded; it is read from config.yml (or the environment).
+The token is never hard-coded; it is read from the DISCORD_TOKEN environment variable.
 """
 
 import io
@@ -39,25 +38,10 @@ from rollhero import Character
 PREFIX = "~"
 COMMAND_NAME = "rollHero"
 DISCORD_MSG_LIMIT = 2000
-CONFIG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.yml")
 
 
 def load_token():
-    """Return the Discord bot token from config.yml, falling back to the env var."""
-    try:
-        import yaml
-
-        if os.path.isfile(CONFIG_FILE):
-            with open(CONFIG_FILE, "r", encoding="utf-8") as fh:
-                cfg = yaml.safe_load(fh) or {}
-            token = cfg.get("DISCORD_TOKEN")
-            if token:
-                return token
-    except ImportError:
-        sys.stderr.write("warning: PyYAML not installed; cannot read config.yml\n")
-    except Exception as exc:  # noqa: BLE001
-        sys.stderr.write(f"warning: could not read config.yml ({exc})\n")
-
+    """Return the Discord bot token from the DISCORD_TOKEN environment variable."""
     return os.environ.get("DISCORD_TOKEN")
 
 intents = discord.Intents.default()
@@ -176,9 +160,8 @@ def main():
     if not token:
         sys.stderr.write(
             "error: no bot token found.\n"
-            "Add it to config.yml next to this script:\n"
-            '  DISCORD_TOKEN: "your-bot-token"\n'
-            "or set the DISCORD_TOKEN environment variable.\n"
+            "Set the DISCORD_TOKEN environment variable, e.g.:\n"
+            '  export DISCORD_TOKEN="your-bot-token"\n'
         )
         return 1
     bot.run(token)
