@@ -9,3 +9,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Secrets
+.env
+config.yml
