@@ -2,3 +2,4 @@ discord.py>=2.3,<3
 PyYAML>=6.0
 fastapi>=0.115
 uvicorn[standard]>=0.30
+aiohttp>=3.9

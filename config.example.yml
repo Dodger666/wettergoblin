@@ -1,4 +1,0 @@
-# Copy this file to "config.yml" and fill in your bot token.
-# Get a token from https://discord.com/developers/applications
-# Never commit the real config.yml (it is gitignored).
-DISCORD_TOKEN: "your-bot-token-here"

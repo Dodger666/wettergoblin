@@ -22,11 +22,26 @@ Endpoints
 
 IMPORTANT: run with a SINGLE worker. Each uvicorn worker would spawn its own
 bot process, and Discord does not allow the same token to be connected twice.
+
+Keep-alive (Render)
+-------------------
+Render's free tier spins a service down after inactivity, which would also kill
+the bot subprocess. On startup a background task self-pings the service's public
+URL so it never goes idle. It activates automatically on Render (via the
+RENDER_EXTERNAL_URL env var) and can be overridden/tuned with:
+    KEEPALIVE_URL        full base URL to ping (defaults to RENDER_EXTERNAL_URL)
+    KEEPALIVE_INTERVAL   seconds between pings (default 600)
+Locally, with neither env var set, keep-alive stays disabled.
 """
 
+from __future__ import annotations
+
+import asyncio
 import multiprocessing
+import os
 from contextlib import asynccontextmanager
 
+import aiohttp
 from fastapi import FastAPI, Query
 from fastapi.responses import JSONResponse, Response
 
@@ -35,6 +50,46 @@ from rollhero import Character
 
 # Holds the handle to the separately-spawned Discord bot process.
 _bot_process: "multiprocessing.process.BaseProcess | None" = None
+
+
+def _keepalive_url() -> str | None:
+    """Return the URL to self-ping, or None when keep-alive is disabled.
+
+    Prefers an explicit KEEPALIVE_URL, otherwise uses RENDER_EXTERNAL_URL which
+    Render sets automatically to the service's public URL. Returns None locally
+    (no env configured), so self-ping only runs where it's actually needed.
+    """
+    base = os.environ.get("KEEPALIVE_URL") or os.environ.get("RENDER_EXTERNAL_URL")
+    if not base:
+        return None
+    return base.rstrip("/") + "/health"
+
+
+async def _keepalive_loop():
+    """Periodically ping the service's own public URL to prevent it sleeping.
+
+    Render's free tier spins a web service down after a period with no inbound
+    HTTP traffic, which also kills the Discord bot subprocess. Hitting the
+    public URL on a timer counts as inbound traffic and keeps both alive.
+    """
+    url = _keepalive_url()
+    if not url:
+        print("keep-alive: disabled (no KEEPALIVE_URL / RENDER_EXTERNAL_URL set)")
+        return
+
+    # Default 10 minutes; Render free tier sleeps after ~15 minutes idle.
+    interval = int(os.environ.get("KEEPALIVE_INTERVAL", "600"))
+    print(f"keep-alive: pinging {url} every {interval}s")
+
+    timeout = aiohttp.ClientTimeout(total=30)
+    async with aiohttp.ClientSession(timeout=timeout) as session:
+        while True:
+            await asyncio.sleep(interval)
+            try:
+                async with session.get(url) as resp:
+                    await resp.read()
+            except Exception as exc:  # noqa: BLE001 - never let ping errors crash the loop
+                print(f"keep-alive: ping failed ({exc})")
 
 
 @asynccontextmanager
@@ -52,9 +107,18 @@ async def lifespan(app: FastAPI):
     )
     _bot_process.start()
 
+    # Self-ping task to keep the (Render) service awake so the bot stays up.
+    keepalive_task = asyncio.create_task(_keepalive_loop())
+
     try:
         yield
     finally:
+        keepalive_task.cancel()
+        try:
+            await keepalive_task
+        except asyncio.CancelledError:
+            pass
+
         if _bot_process is not None and _bot_process.is_alive():
             _bot_process.terminate()
             _bot_process.join(timeout=10)
