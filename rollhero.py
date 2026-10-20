@@ -2385,7 +2385,10 @@ class Character:
 # CLI
 # ==========================================================================
 def print_usage():
-    print("""rollhero - generate an AD&D-1e style character sheet
+    print(USAGE)
+
+
+USAGE = """rollhero - generate an AD&D-1e style character sheet
 
 Usage:
   python rollhero.py [params...]
@@ -2403,7 +2406,7 @@ Params (all optional, space separated):
 Examples:
   python rollhero.py fighter xp12000
   python rollhero.py "fighter|thief" elf xp40000 name=Bob
-  python rollhero.py magicuser xp60000""")
+  python rollhero.py magicuser xp60000"""
 
 
 def main(argv):

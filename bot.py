@@ -33,11 +33,23 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 
-from rollhero import Character
+from rollhero import Character, USAGE
 
 PREFIX = "~"
 COMMAND_NAME = "rollHero"
 DISCORD_MSG_LIMIT = 2000
+HELP_FLAGS = {"-h", "--help", "help"}
+
+
+def wants_help(params: str) -> bool:
+    """Return True if the params request the usage/help text."""
+    tokens = (params or "").replace('"', "").split()
+    return any(tok.lower() in HELP_FLAGS for tok in tokens)
+
+
+def help_text() -> str:
+    """Return the usage text wrapped in a Discord code block."""
+    return "```\n" + USAGE + "\n```"
 
 
 def load_token():
@@ -126,6 +138,9 @@ async def on_message(message: discord.Message):
 
     if content.lower().startswith(trigger):
         params = content[len(PREFIX + COMMAND_NAME):].strip()
+        if wants_help(params):
+            await message.channel.send(help_text())
+            return
         try:
             block, file = build_sheet(params)
             if block is not None:
@@ -145,6 +160,9 @@ async def on_message(message: discord.Message):
     params='e.g. "fighter xp12000"  or  "fighter|thief elf xp40000 name=Bob"'
 )
 async def rollhero_slash(interaction: discord.Interaction, params: str = ""):
+    if wants_help(params):
+        await interaction.response.send_message(help_text(), ephemeral=True)
+        return
     try:
         block, file = build_sheet(params)
         if block is not None:
